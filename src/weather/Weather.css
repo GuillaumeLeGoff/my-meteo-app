@@ -1,0 +1,54 @@
+body {
+  background-image: url('https://img.freepik.com/photos-gratuite/ressort-nuages-exterieur-bleu-meteo_1122-2353.jpg?w=2000');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.weather-info {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.temp {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.humidity {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.forecast-container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.tempHour {
+  font-size: 1rem;
+  margin-top: 5px;
+}
